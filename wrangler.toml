@@ -1,6 +1,6 @@
-name = "openai-cf"                # todo
+name = "qwenapi"                # todo
 main = "index.js"
-compatibility_date = "2024-05-06"
+compatibility_date = "2024-06-06"
 
 [ai]
 binding = "AI" # i.e. available in your Worker on env.AI
@@ -11,5 +11,5 @@ bucket_name = "openai-cf-images"
 preview_bucket_name = "ai-images"
 
 [vars]
-CLOUDFLARE_ACCOUNT_ID = "c8c30db3dddc4ad31065d336368c7905" # replace with your own.
-# MODEL_MAPPER = { "gpt-3.5-turbo" = "@cf/meta/llama-2-7b-chat-int8" } # Optional
+CLOUDFLARE_ACCOUNT_ID = "f52fafdade5f6818f12471a430a13e6d" # replace with your own.
+MODEL_MAPPER = { "gpt-3.5-turbo" = "@cf/qwen/qwen1.5-14b-chat-awq" } # Optional
