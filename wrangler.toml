@@ -12,4 +12,4 @@ preview_bucket_name = "ai-images"
 
 [vars]
 CLOUDFLARE_ACCOUNT_ID = "f52fafdade5f6818f12471a430a13e6d" # replace with your own.
-MODEL_MAPPER = { "gpt-3.5-turbo" = "@cf/qwen/qwen1.5-14b-chat-awq" } # Optional
+MODEL_MAPPER = { "gpt-3.5-turbo" = "@cf/qwen/qwen1.5-1.8b-chat" } # Optional
